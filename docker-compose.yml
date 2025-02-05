@@ -11,6 +11,8 @@ services:
     volumes:
       - ./db:/code/db
 
+
+
   huey:
     container_name: huey
     image: ghcr.io/intuitem/ciso-assistant-community/backend:latest
